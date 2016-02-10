@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It saves my time because I don't need to look through all file. I just need to check lines that were actually changed.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+	It helps me to choose the best decision of solving the problem between all that I've tried. It helps me to observe my progress. When working in team it helps to observe the work of other people.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	Pros are that my versions will be logicaly finished (they will not be saved when I'm in the middle of the line, not compilable and so on), there will not be too much versions. Cons - that I can forget to commit and loose my changes in case of some emergency. Also if I will do commits too big I'll have problems with using git diff.	
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+	It depends on purpose of version control system. Some logical changes (for example in coding) affect multiple files simultaneously and it's reasonable to save them in one commit. It will help to observe logical change easier using diff. If we will track each file separately in this case we will need to find first changed file and then look for all changes that were made near that time. It will be annoying. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+	'git log' shows all commits (commit id, author, datetime of change, text that explains the change, for every commit). To use git diff I need to know id of 2 commits that I want to compare (I can take them from git log command). Than I use git diff id1 id2 and see all the changes. Lines that were added are shown with '+ 'sign and are green. Lines that are removed are shown with '-' sign and are red.
+
+How might using version control make you more confident to make changes that could break something?
+
+	I can always use git checkout and return to the moment where everything works. Then I can use git diff to spot the bug.
+	
+Now that you have your workspace set up, what do you want to try using Git for?
+
+
+
