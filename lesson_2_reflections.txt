@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	It makes from ordinary directory a repository. The hidden folder .git is added to store bucnh of metadata to store the history of repository since it's created. I need to do it to track changes that happen to this repository.
