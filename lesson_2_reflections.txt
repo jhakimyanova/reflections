@@ -21,3 +21,7 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?	
 
 	The result of merging two branches together is commit with message 'Merge coins branch'. After this commit the code will have changes of both branches. On the diagram we show it as a commit with 2 parents to show that this commit is the result of a merge.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?	
+
+	Pros of automatic merging is obvious: it saves time and it makes impossible to do silly mistakes like typos while manual merging. Cons are that you can't manually control the process of merging. It meansa that you can get not what you have expected. For example if user1 adds the function and user2 adds the function that does the same but with the different name automerging will add both functions and the code will become redundant. The worst situation is that the code can become uncompilable after automatic merging.
