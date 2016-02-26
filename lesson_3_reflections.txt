@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  When I want to work from more than one computer (for example from computer at work and from laptop at home...). 
+  When I work in team, it's easier to collaborate using remotes.
+  When I want to be sure that my code is stored safely in cloud but not only in my local machine.
